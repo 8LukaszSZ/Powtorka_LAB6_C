@@ -1,0 +1,1 @@
+# Powtorka_LAB6_C
