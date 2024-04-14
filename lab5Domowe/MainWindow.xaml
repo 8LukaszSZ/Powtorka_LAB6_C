@@ -1,0 +1,22 @@
+﻿<Window x:Class="lab5Domowe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab5Domowe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnClick" Content="Click" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="60" Width="187" Click="btnClick_Click"/>
+        <ListBox x:Name="listWynik" Margin="10,75,603,142" Grid.RowSpan="2"/>
+        <ListBox x:Name="listWynik2" Grid.RowSpan="2" Margin="202,75,411,142"/>
+        <Button x:Name="btnClick2" Content="Click2" HorizontalAlignment="Left" Margin="202,10,0,0" VerticalAlignment="Top" Height="60" Width="187" Click="btnClick2_Click"/>
+        <Button x:Name="btnDodaj" Content="Dodaj" HorizontalAlignment="Left" Margin="394,10,0,0" VerticalAlignment="Top" Height="60" Width="177" Click="btnDodaj_Click"/>
+        <Button x:Name="btnPobierz" Content="Pobierz" HorizontalAlignment="Left" Margin="576,11,0,0" VerticalAlignment="Top" Width="177" Height="58" Click="btnPobierz_Click"/>
+
+    </Grid>
+</Window>
